@@ -29,10 +29,10 @@ const why = [
   ["Fokus produksi boneka plush", "Boneka plush adalah satu-satunya fokus kami."],
   ["Komunikasi proyek yang jelas", "Satu chat WhatsApp dari ide pertama sampai pengiriman."],
   ["Perencanaan produksi", "Jumlah dan jadwal kita petakan bersama sejak awal."],
-  ["Pesanan massal", "Untuk brand, event, dan komunitas, mulai dari 100 pcs."],
+  ["Pesanan massal", "Untuk brand, event, dan komunitas, mulai dari 300 pcs."],
 ];
 const faq = [
-  ["Berapa minimum order?", "Minimum order kami mulai dari 100 pcs."],
+  ["Berapa minimum order?", "Minimum order kami mulai dari 300 pcs."],
   ["Bisakah saya membuat boneka dari karakter sendiri?", "Bisa. Kirim karakter, maskot, atau logomu dan kita bahas cara mewujudkannya jadi boneka."],
   ["Bisakah ukuran dan bahan disesuaikan?", "Ukuran dan bahan selalu dibahas di setiap proyek. Ceritakan yang kamu bayangkan dan kami konfirmasi apa yang memungkinkan."],
   ["Bisakah minta sampel?", "Detail sampel disepakati saat konsultasi. Tanyakan lewat WhatsApp."],
@@ -57,7 +57,7 @@ export default function Home() {
         <section className="hero" id="home">
           <div className="wrap">
             <div>
-              <span className="moq">BONEKA BULU CUSTOM | MOQ MULAI DARI 100 PCS</span>
+              <span className="moq">BONEKA BULU CUSTOM | MOQ MULAI DARI 300 PCS</span>
               <h1>Ubah karakter kamu jadi boneka yang empuk dipeluk.</h1>
               <p>Wujudkan karakter, maskot, dan konsep kreatifmu jadi boneka plush custom. Dari pengembangan desain sampai produksi, kami bantu ubah idemu jadi produk nyata.</p>
               <div className="cta-row">
@@ -149,7 +149,7 @@ export default function Home() {
 
       <footer>
         <div className="wrap">
-          <div><strong style={{ color: "var(--ink)" }}>BikinMerch.aja</strong><br />Mitra produksi boneka plush custom-mu.<br />Boneka bulu custom, MOQ mulai 100 pcs.</div>
+          <div><strong style={{ color: "var(--ink)" }}>BikinMerch.aja</strong><br />Mitra produksi boneka plush custom-mu.<br />Boneka bulu custom, MOQ mulai 300 pcs.</div>
           <div><a href="#plush">Koleksi Boneka</a><a href="#custom">Kustomisasi</a><a href="#how">Cara Kerja</a><a href="#faq">FAQ</a></div>
           <div>
             <a className="soc" href={`https://www.instagram.com/${INSTAGRAM}`} target="_blank" rel="noopener" aria-label={`Instagram @${INSTAGRAM}`}>
